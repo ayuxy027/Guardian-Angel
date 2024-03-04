@@ -1,50 +1,60 @@
-/* boiler plate code  */
-*{
+/* boiler plate code */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html, body {
     width: 100%;
     height: 100%;
 }
-/* Main div  */
+
+/* Main div */
 #main {
     height: 100vh;
     width: 100vw;
     background-image: url(../Assets/bg.jpg);
     background-size: cover;
 }
-/* Upper Navigation Bar  */
-#nav{
+
+/* Upper Navigation Bar */
+#nav {
     height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-/* Nav bar button  */
-#nav button{
+
+/* Nav bar div item */
+.nav-item {
+    background-color: whitesmoke;
     padding: 15px 25px;
     border-radius: 17px;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
 }
-/* Button effects  */
-#nav button:hover {
+
+/* Button effects */
+.nav-item:hover {
     background-color: rgb(246, 181, 1);
     color: rgb(255, 255, 255);
     transition: background-color 0.2s linear;
 }
+
 /* Working with the logo */
-#logo{
+#logo {
     font-size: 30px;
     text-decoration: underline whitesmoke;
     color: white;
-    font-family: 'Noto Sans' , sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
-#home{
-    padding-left: 800px;
+#home , #login{
+    margin-left: 40px;
+}
+#about , #signup{
+    margin-right: 40px;
 }
 
-   
