@@ -27,18 +27,24 @@ html,body{
 #nav button{
     padding: 15px 25px;
     border-radius: 17px;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 16px;
 }
 /* Button effects  */
-button:hover{
+#nav button:hover {
     background-color: rgb(246, 181, 1);
-    color: black;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.2s linear;
 }
 /* Working with the logo */
 #logo{
-    text-decoration: underline wavy red;
+    font-size: 30px;
+    text-decoration: underline whitesmoke;
     color: white;
+    font-family: 'Noto Sans' , sans-serif;
+}
+#home{
+    padding-left: 800px;
 }
 
    
