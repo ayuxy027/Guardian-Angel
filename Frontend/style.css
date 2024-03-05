@@ -25,6 +25,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+     margin: auto ;
 }
 
 /* Nav bar div item */
@@ -39,7 +40,7 @@ html, body {
 
 /* Button effects */
 .nav-item:hover {
-    background-color: rgb(246, 181, 1);
+    background-color:orangered;
     color: rgb(255, 255, 255);
     transition: background-color 0.2s linear;
 }
@@ -47,9 +48,9 @@ html, body {
 /* Working with the logo */
 #logo {
     font-size: 30px;
-    text-decoration: underline whitesmoke;
-    color: rgb(239, 56, 56);
+    color: rgb(19, 255, 231);
     font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
     
 }
 #home , #login{
@@ -62,7 +63,7 @@ hr {
     height: 1px;
     background-color: #333;
     border: none;
-    margin: 20px 0;
+    margin: 10px 0px;
 }
 #hero{
     font-family: 'Kode Mono' , sans-serif;
@@ -82,6 +83,21 @@ hr {
 }
 #heroimg{
     background-size: cover;
+}
+
+img {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+i {
+    margin-right: 2px ;
+}
+/* second page starts here */
+#page2 {
+    height: 100%;
+    background-image: url(../Assets/bg.jpg);
+
 }
 
 
