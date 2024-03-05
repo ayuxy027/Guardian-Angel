@@ -57,4 +57,28 @@ html, body {
 #about , #signup{
     margin-right: 40px;
 }
+hr {
+    height: 1px;
+    background-color: #333;
+    border: none;
+    margin: 12px 0;
+}
+#hero{
+    height: 300px;
+    width: 40%;
+    margin-top: 180px;
+    margin-left: 80px;
+    color: white;
+    font-size: 55px;
+}
+#herotxt{
+    color: yellow;
+}
+#nav2{
+    display: flex;
+}
+#heroimg{
+    background-size: cover;
+}
+
 
