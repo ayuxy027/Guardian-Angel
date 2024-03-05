@@ -48,8 +48,9 @@ html, body {
 #logo {
     font-size: 30px;
     text-decoration: underline whitesmoke;
-    color: white;
+    color: rgb(239, 56, 56);
     font-family: 'Noto Sans', sans-serif;
+    
 }
 #home , #login{
     margin-left: 40px;
