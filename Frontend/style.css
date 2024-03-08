@@ -51,6 +51,7 @@ html, body {
     color: rgb(19, 255, 231);
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
+    text-decoration: underline wheat 2px;
     
 }
 #home , #login{
