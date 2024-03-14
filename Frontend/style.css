@@ -30,7 +30,7 @@ html, body {
 
 /* Nav bar div item */
 .nav-item {
-    background-color: rgb(125, 236, 253);
+    background-color: #00CED1;;
     padding: 15px 25px;
     border-radius: 17px;
     font-weight: 600;
@@ -41,7 +41,7 @@ html, body {
 
 /* Button effects */
 .nav-item:hover {
-    background-color:rgb(249, 120, 72);
+    background-color:#255656;
     color: rgb(255, 255, 255);
     transition: background-color 0.2s linear;
 }
@@ -73,7 +73,9 @@ html, body {
     left: 0; /* Centers the underline */
 }
 
-
+#logo:hover{
+    color:#FFE4B5; ;
+}
 
 #home , #login{
     margin-left: 40px;
@@ -120,8 +122,29 @@ i {
 #page2 {
     height: 100%;
     background-image: url(../Assets/bg.jpg);
+}
+#contactus{
+    padding: 15px 25px;
+    border-radius: 17px;
+    font-size: 20px;
+    background-color: azure;
+    margin-top: 100px;
+    cursor: pointer;
+    background-color: #80d0c7;;
+    border: solid black 1px;
+}
+#contactus:hover{
+    background-color: rgb(249, 120, 72);
 
 }
+#phoneicon{
+    margin-right: 5px;
+}
+#handles{
+    font-size: 30px;
+    margin-top: 25px;
+    color: rgb(190, 186, 186);
+    margin-left: 2px;
 
-
+}
 
