@@ -30,7 +30,7 @@ html, body {
 
 /* Nav bar div item */
 .nav-item {
-    background-color: #00CED1;;
+    background-color: #00CED1;
     padding: 15px 25px;
     border-radius: 17px;
     font-weight: 600;
@@ -127,15 +127,15 @@ i {
     padding: 15px 25px;
     border-radius: 17px;
     font-size: 20px;
-    background-color: azure;
     margin-top: 100px;
     cursor: pointer;
-    background-color: #80d0c7;;
+    background-color: #00CED1;
     border: solid black 1px;
 }
 #contactus:hover{
-    background-color: rgb(249, 120, 72);
-
+        background-color:#255656;
+        color: rgb(255, 255, 255);
+        transition: background-color 0.2s linear;
 }
 #phoneicon{
     margin-right: 5px;
