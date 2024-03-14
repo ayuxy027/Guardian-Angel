@@ -30,30 +30,51 @@ html, body {
 
 /* Nav bar div item */
 .nav-item {
-    background-color: whitesmoke;
+    background-color: rgb(125, 236, 253);
     padding: 15px 25px;
     border-radius: 17px;
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 16px;
 }
 
 /* Button effects */
 .nav-item:hover {
-    background-color:orangered;
+    background-color:rgb(249, 120, 72);
     color: rgb(255, 255, 255);
     transition: background-color 0.2s linear;
 }
 
 /* Working with the logo */
 #logo {
+    margin-top: 10px;
     font-size: 30px;
     color: rgb(19, 255, 231);
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
-    text-decoration: underline wheat 2px;
-    
+    position: relative; /* Required for pseudo-element positioning */
+    cursor: pointer;
 }
+
+#logo::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: wheat;
+    transition: width 1s ease-in-out, left 1s ease-in-out;
+}
+
+#logo:hover::before {
+    width: 100%; /* Expands the underline */
+    left: 0; /* Centers the underline */
+}
+
+
+
 #home , #login{
     margin-left: 40px;
 }
@@ -76,6 +97,7 @@ hr {
     font-size: 45px;
 }
 #herotxt{
+    margin-top: 50px;
     color: yellow;
     text-decoration: underline rgb(249, 249, 173);
 }
